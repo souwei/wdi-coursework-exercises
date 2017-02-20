@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-button"><button>X</button></div>
+    <h1>Da Bank</h1>
+    <img src="images/42.ico" alt="">
+    <span class="motto">We Print Money, Like,  Everyday</span>
+    <img src="images/42.ico" alt="">
+  </header>
+
+  <div id="main">
+
+    <div class="savings">
+      <div class="atmWindowHeader"> <img class="icon"src="" alt="">
+        <span class="atmWindowText">Default Heading</span> </div>
+      <h1 class="atmHeading">SAVINGS</h1>
+      <div class="balanceDisplay">
+      <span class="dollarSign">$</span>
+      <div id="savingsBalanceAmountContainer"></div>
+      </div>
+      <input class="inputAmount" type="text" placeholder="Enter Amount here">
+      <div class="buttonContainer">
+      <button data-type-account="savings" class="Withdraw-btn">Withdraw</button>
+      <button data-type-account="savings" class="Deposit-btn">Deposit</button>
+      </div>
+    </div>
+
+    <div class="checking">
+
+      <div class="atmWindowHeader"> <img class="icon" src="" alt="">
+      <span class="atmWindowText">Default Heading</span>
+       </div>
+      <h1 class="atmHeading">CHECKING</h1>
+      <div class="balanceDisplay">
+      <span class="dollarSign">$</span>
+      <div id="checkingBalanceAmountContainer"></div>
+
+    </div>
+      <input class="inputAmount" type="text" placeholder="Enter Amount here">
+      <div class="buttonContainer">
+      <button data-type-account="checking" class="Withdraw-btn">Withdraw</button>
+      <button data-type-account="checking" class="Deposit-btn">Deposit</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="gaBankAppV3.js"></script>
+
+</body>
+</html>
