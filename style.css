@@ -1,0 +1,108 @@
+body{
+  width:968px;
+  background-color:#008080
+}
+
+header{
+  border: 1px solid #808080;
+  width: 968px;
+}
+
+#main{
+  width: 700px;
+  height: 900px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.savings{
+  border: 1px solid #808080;
+  height:350px;
+  width:300px;
+  display:inline-block;
+  background-color:#bfbfbf;
+}
+
+.checking{
+  border: 1px solid #808080;
+  height:350px;
+  width:300px;
+  display:inline-block;
+  background-color:#bfbfbf;
+
+}
+
+
+#checkingBalanceAmountContainer, #savingsBalanceAmountContainer {
+  margin-bottom: 10px;
+  display:inline-block;
+}
+
+.buttonContainer{
+  margin-top: 10px;
+}
+
+.atmHeading{
+  font-family: Sans-Serif, Arial;
+
+}
+
+button{
+  background-color: white;
+    border-bottom: 1px solid blue;
+    color: black;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.noBalanceAccount{
+  background-color:red;
+}
+
+.atmWindowHeader{
+   background: linear-gradient(to right, #000080, #1084d0);
+   height:20px;
+   color: #fff;
+   font-family: 'Open Sans', sans-serif;
+   font-size:12px;
+   text-align:left;
+}
+
+.icon{
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.balanceDisplay{
+  font-size:2em;
+}
+
+.dollarSign{
+  display:inline-block;
+}
+
+header{
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  margin-bottom:5px;
+  width: 600px;
+  background: linear-gradient(to right, #000080, #1084d0);
+  color: #fff;
+  padding-bottom:10px;
+}
+
+.motto{
+  margin-bottom:10px;
+}
+
+h1{
+  margin-bottom:5px;
+}
+
+.header-button{
+  float:right;
+  height:100%;
+}
